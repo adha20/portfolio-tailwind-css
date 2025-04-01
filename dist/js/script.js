@@ -1,4 +1,3 @@
-//Navbar Fixed
 window.onscroll = function() {
     const header = document.querySelector('header');
     const fixedNav = header.offsetTop;
@@ -19,5 +18,3 @@ hamburger.addEventListener('click', function(){
     hamburger.classList.toggle('hamburger-active');
     navMenu.classList.toggle('hidden');
 });
-
-
